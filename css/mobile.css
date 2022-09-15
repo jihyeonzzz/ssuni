@@ -127,12 +127,10 @@ main{margin-bottom: 30px;}
 .pcslide{display: none;}
 article img{width: 100%;}
 .con{
-  margin: 0px auto;
   display: grid;
-  max-width: 500px;
   padding: 0px 1%;
   box-sizing: border-box;
-  grid-template-columns: auto;
+  grid-template-columns: 100%;
   grid-template-areas:
   "item"
   "brand"
@@ -142,6 +140,7 @@ article img{width: 100%;}
   "news"
   ;
 }
+
 .con > h2{display: none;}
 .con article{
   /* background: #ffff00; */
