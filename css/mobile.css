@@ -3,7 +3,11 @@
 @media screen and (max-width: 767px) {
   
 /* 모바일 서식 */
-header{}
+header{
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
 .header_inner{
   width: 100%;
   height: 70px;
@@ -118,7 +122,7 @@ i.fa-search{
 #toggle:checked + header .lnb{left: 0px;}
 
 /* 메인콘텐츠 서식 */
-main{margin-bottom: 30px;}
+
 .slide{
   width: 100%;
   /* height: 100vh; vertical height */
@@ -141,7 +145,6 @@ article img{width: 100%;}
   ;
 }
 
-.con > h2{display: none;}
 .con article{
   /* background: #ffff00; */
   /* height: 270px; */
@@ -165,11 +168,17 @@ article img{width: 100%;}
 .store a{
   display: block;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 90%;
   background-position: center;
   text-indent: -9999px;
   height: calc(200px - 10px);
   /* max-height: 190px; */
+}
+
+.notice li, .news li{
+  min-width: 320px;
+  max-width: 414px;
+  text-indent: 10px;
 }
 
 footer{
