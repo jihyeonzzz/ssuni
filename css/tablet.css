@@ -6,6 +6,7 @@ i.s1, i.fa-times, i.fa-angle-down{display: none;}
 header{
   position: absolute;
   z-index: 1000;
+  width: 100%;
 }
 .header_inner{
   width: 100%; height: 112px;
